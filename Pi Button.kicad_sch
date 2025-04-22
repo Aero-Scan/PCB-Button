@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0bb1cb5a-ffc5-4363-9ff0-87d629e01e4b")
 	(paper "A4")
+	(title_block
+		(title "Button PCB")
+		(date "2025-04-22")
+		(rev "1")
+		(company "Aero Scan")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
@@ -2039,7 +2045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 171.45 69.088 90)
 			(effects
 				(font
@@ -2243,7 +2249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 171.45 76.708 90)
 			(effects
 				(font
