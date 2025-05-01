@@ -83,7 +83,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -117,9 +117,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "/home/will/Documents/Murdoch/ICT302/PCB/PCB-Button/gerbers/")
 		)
 	)
 	(net 0 "")
@@ -1392,7 +1392,7 @@
 		(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x20 2.54mm double row")
 		(property "Reference" "J1"
-			(at -5 -20.24 -270)
+			(at -5 -20.24 90)
 			(layer "F.SilkS")
 			(uuid "d5eb51e4-cdea-4ee6-b380-20dd75c2b5a5")
 			(effects
